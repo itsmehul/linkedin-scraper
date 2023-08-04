@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import {
   Button,
   ChakraProvider,
@@ -48,7 +49,7 @@ export default function Home() {
             gap="1em"
           >
             <Heading as="h3" size="xl" textAlign="center">
-              About Us Scrapper
+              About Us Scraper
             </Heading>
             <HStack>
               <Input
@@ -60,6 +61,7 @@ export default function Home() {
                 Submit
               </Button>
             </HStack>
+            <Text fontWeight="bold">Try 'TCS','Join Valley','InfoSys'</Text>
             <Text>{aboutUs}</Text>
           </Flex>
         </Container>
